@@ -11,20 +11,19 @@
   ],
   "main": "./lib/index",
   "dependencies": {
-    "debug": "2.1.3",
-    "engine.io-client": "automattic/engine.io-client#fb7c198",
+    "backo2": "1.0.2",
     "component-bind": "1.0.0",
     "component-emitter": "1.2.0",
-    "object-component": "0.0.3",
-    "socket.io-parser": "2.2.3",
+    "debug": "2.1.3",
+    "engine.io-client": "cchamberlain/engine.io-client",
     "has-binary": "0.1.6",
     "indexof": "0.0.1",
+    "object-component": "0.0.3",
     "parseuri": "0.0.2",
-    "to-array": "0.1.3",
-    "backo2": "1.0.2"
+    "socket.io-parser": "2.2.3",
+    "to-array": "0.1.3"
   },
   "devDependencies": {
-    "socket.io": "automattic/socket.io#f2a732",
     "mocha": "1.16.2",
     "zuul": "1.17.1",
     "zuul-ngrok": "2.0.0",
